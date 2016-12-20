@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D10ABD1E09A2E200D90CE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D10ABC1E09A2E200D90CE4 /* AppDelegate.swift */; };
+		24D10ABF1E09A2E200D90CE4 /* MYJSQMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D10ABE1E09A2E200D90CE4 /* MYJSQMessagesViewController.swift */; };
+		24D10AC21E09A2E300D90CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D10AC01E09A2E300D90CE4 /* Main.storyboard */; };
+		24D10AC41E09A2E300D90CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D10AC31E09A2E300D90CE4 /* Assets.xcassets */; };
+		24D10AC71E09A2E300D90CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D10AC51E09A2E300D90CE4 /* LaunchScreen.storyboard */; };
+		24D10AD01E09A4AA00D90CE4 /* MYJSQMessagesToolbarContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D10ACE1E09A4AA00D90CE4 /* MYJSQMessagesToolbarContentView.xib */; };
+		24D10AD11E09A4AA00D90CE4 /* MYJSQMessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24D10ACF1E09A4AA00D90CE4 /* MYJSQMessagesViewController.xib */; };
+		24D10AD31E09A56600D90CE4 /* MYJSQMessagesToolbarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D10AD21E09A56600D90CE4 /* MYJSQMessagesToolbarContentView.swift */; };
+		24D10AD51E09A66600D90CE4 /* MYJSQMessagesInputToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D10AD41E09A66600D90CE4 /* MYJSQMessagesInputToolbar.swift */; };
+		58B8CF87F9F9CFBF0EEDB8B2 /* Pods_JQSMessageCustomInputBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C86BA992FC71769DD88656 /* Pods_JQSMessageCustomInputBar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D10AB91E09A2E200D90CE4 /* JQSMessageCustomInputBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQSMessageCustomInputBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D10ABC1E09A2E200D90CE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24D10ABE1E09A2E200D90CE4 /* MYJSQMessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYJSQMessagesViewController.swift; sourceTree = "<group>"; };
+		24D10AC11E09A2E300D90CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D10AC31E09A2E300D90CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D10AC61E09A2E300D90CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D10AC81E09A2E300D90CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D10ACE1E09A4AA00D90CE4 /* MYJSQMessagesToolbarContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYJSQMessagesToolbarContentView.xib; sourceTree = "<group>"; };
+		24D10ACF1E09A4AA00D90CE4 /* MYJSQMessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MYJSQMessagesViewController.xib; sourceTree = "<group>"; };
+		24D10AD21E09A56600D90CE4 /* MYJSQMessagesToolbarContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYJSQMessagesToolbarContentView.swift; sourceTree = "<group>"; };
+		24D10AD41E09A66600D90CE4 /* MYJSQMessagesInputToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MYJSQMessagesInputToolbar.swift; sourceTree = "<group>"; };
+		25C86BA992FC71769DD88656 /* Pods_JQSMessageCustomInputBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JQSMessageCustomInputBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7F8CE84C03032A64B2BE4E /* Pods-JQSMessageCustomInputBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQSMessageCustomInputBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-JQSMessageCustomInputBar/Pods-JQSMessageCustomInputBar.release.xcconfig"; sourceTree = "<group>"; };
+		E1313B54D0829AE37501FC22 /* Pods-JQSMessageCustomInputBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JQSMessageCustomInputBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JQSMessageCustomInputBar/Pods-JQSMessageCustomInputBar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D10AB61E09A2E200D90CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B8CF87F9F9CFBF0EEDB8B2 /* Pods_JQSMessageCustomInputBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F1B5BB56395D1371D5676B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1313B54D0829AE37501FC22 /* Pods-JQSMessageCustomInputBar.debug.xcconfig */,
+				DF7F8CE84C03032A64B2BE4E /* Pods-JQSMessageCustomInputBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24D10AB01E09A2E200D90CE4 = {
+			isa = PBXGroup;
+			children = (
+				24D10ABB1E09A2E200D90CE4 /* JQSMessageCustomInputBar */,
+				24D10ABA1E09A2E200D90CE4 /* Products */,
+				05F1B5BB56395D1371D5676B /* Pods */,
+				F21F1F7C1FF466EC8D7A664E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24D10ABA1E09A2E200D90CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D10AB91E09A2E200D90CE4 /* JQSMessageCustomInputBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D10ABB1E09A2E200D90CE4 /* JQSMessageCustomInputBar */ = {
+			isa = PBXGroup;
+			children = (
+				24D10ABC1E09A2E200D90CE4 /* AppDelegate.swift */,
+				24D10ABE1E09A2E200D90CE4 /* MYJSQMessagesViewController.swift */,
+				24D10ACF1E09A4AA00D90CE4 /* MYJSQMessagesViewController.xib */,
+				24D10AD21E09A56600D90CE4 /* MYJSQMessagesToolbarContentView.swift */,
+				24D10ACE1E09A4AA00D90CE4 /* MYJSQMessagesToolbarContentView.xib */,
+				24D10AD41E09A66600D90CE4 /* MYJSQMessagesInputToolbar.swift */,
+				24D10AC01E09A2E300D90CE4 /* Main.storyboard */,
+				24D10AC31E09A2E300D90CE4 /* Assets.xcassets */,
+				24D10AC51E09A2E300D90CE4 /* LaunchScreen.storyboard */,
+				24D10AC81E09A2E300D90CE4 /* Info.plist */,
+			);
+			path = JQSMessageCustomInputBar;
+			sourceTree = "<group>";
+		};
+		F21F1F7C1FF466EC8D7A664E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C86BA992FC71769DD88656 /* Pods_JQSMessageCustomInputBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D10AB81E09A2E200D90CE4 /* JQSMessageCustomInputBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D10ACB1E09A2E300D90CE4 /* Build configuration list for PBXNativeTarget "JQSMessageCustomInputBar" */;
+			buildPhases = (
+				647A237D1C810699524D9462 /* [CP] Check Pods Manifest.lock */,
+				24D10AB51E09A2E200D90CE4 /* Sources */,
+				24D10AB61E09A2E200D90CE4 /* Frameworks */,
+				24D10AB71E09A2E200D90CE4 /* Resources */,
+				9D374CAFA14B1D4F3DF9917D /* [CP] Embed Pods Frameworks */,
+				71065503252B438F7B0DFB89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQSMessageCustomInputBar;
+			productName = JQSMessageCustomInputBar;
+			productReference = 24D10AB91E09A2E200D90CE4 /* JQSMessageCustomInputBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D10AB11E09A2E200D90CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = demo;
+				TargetAttributes = {
+					24D10AB81E09A2E200D90CE4 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24D10AB41E09A2E200D90CE4 /* Build configuration list for PBXProject "JQSMessageCustomInputBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D10AB01E09A2E200D90CE4;
+			productRefGroup = 24D10ABA1E09A2E200D90CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D10AB81E09A2E200D90CE4 /* JQSMessageCustomInputBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D10AB71E09A2E200D90CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D10AC71E09A2E300D90CE4 /* LaunchScreen.storyboard in Resources */,
+				24D10AC41E09A2E300D90CE4 /* Assets.xcassets in Resources */,
+				24D10AC21E09A2E300D90CE4 /* Main.storyboard in Resources */,
+				24D10AD01E09A4AA00D90CE4 /* MYJSQMessagesToolbarContentView.xib in Resources */,
+				24D10AD11E09A4AA00D90CE4 /* MYJSQMessagesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		647A237D1C810699524D9462 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		71065503252B438F7B0DFB89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQSMessageCustomInputBar/Pods-JQSMessageCustomInputBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D374CAFA14B1D4F3DF9917D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JQSMessageCustomInputBar/Pods-JQSMessageCustomInputBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D10AB51E09A2E200D90CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D10AD31E09A56600D90CE4 /* MYJSQMessagesToolbarContentView.swift in Sources */,
+				24D10AD51E09A66600D90CE4 /* MYJSQMessagesInputToolbar.swift in Sources */,
+				24D10ABF1E09A2E200D90CE4 /* MYJSQMessagesViewController.swift in Sources */,
+				24D10ABD1E09A2E200D90CE4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24D10AC01E09A2E300D90CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D10AC11E09A2E300D90CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24D10AC51E09A2E300D90CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D10AC61E09A2E300D90CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D10AC91E09A2E300D90CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D10ACA1E09A2E300D90CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D10ACC1E09A2E300D90CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1313B54D0829AE37501FC22 /* Pods-JQSMessageCustomInputBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JQSMessageCustomInputBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.JQSMessageCustomInputBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24D10ACD1E09A2E300D90CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7F8CE84C03032A64B2BE4E /* Pods-JQSMessageCustomInputBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JQSMessageCustomInputBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.JQSMessageCustomInputBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D10AB41E09A2E200D90CE4 /* Build configuration list for PBXProject "JQSMessageCustomInputBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D10AC91E09A2E300D90CE4 /* Debug */,
+				24D10ACA1E09A2E300D90CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D10ACB1E09A2E300D90CE4 /* Build configuration list for PBXNativeTarget "JQSMessageCustomInputBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D10ACC1E09A2E300D90CE4 /* Debug */,
+				24D10ACD1E09A2E300D90CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D10AB11E09A2E200D90CE4 /* Project object */;
+}
